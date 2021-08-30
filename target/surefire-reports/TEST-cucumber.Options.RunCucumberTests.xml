@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.RunCucumberTests" time="109.131" tests="16" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="log4j.configurationFile" value="C:\SnehProjects\Miro\Miro/src/test/resources/log4j.xml"/>
+    <property name="webdriver.chrome.driver" value="C:\SnehProjects\Miro\Miro/src/test/resources/drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\SnehProjects\Miro\Miro\target\test-classes;C:\SnehProjects\Miro\Miro\target\classes;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\abhij\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abhij\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\abhij\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\abhij\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\abhij\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\abhij\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\abhij\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\abhij\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\abhij\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhij\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhij\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhij\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhij\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhij\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhij\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhij\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\abhij\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\abhij\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abhij\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abhij\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-picocontainer\6.11.0\cucumber-picocontainer-6.11.0.jar;C:\Users\abhij\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="logoutputpath" value="C:\SnehProjects\Miro\Miro"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\abhij\AppData\Local\Temp\surefire11135429635843579478\surefirebooter2612208153124242745.jar C:\Users\abhij\AppData\Local\Temp\surefire11135429635843579478 2021-08-30T15-31-19_056-jvmRun1 surefire17055842399642717934tmp surefire_09467851954229136828tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SnehProjects\Miro\Miro\target\test-classes;C:\SnehProjects\Miro\Miro\target\classes;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\abhij\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\abhij\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abhij\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\abhij\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\abhij\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\abhij\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\abhij\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\abhij\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\abhij\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\abhij\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\abhij\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\abhij\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhij\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhij\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhij\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhij\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhij\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhij\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhij\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\abhij\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\abhij\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\abhij\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\abhij\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\abhij\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\abhij\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\abhij\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\abhij\.m2\repository\io\cucumber\cucumber-picocontainer\6.11.0\cucumber-picocontainer-6.11.0.jar;C:\Users\abhij\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abhij"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SnehProjects\Miro\Miro"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhij\AppData\Local\Temp\surefire11135429635843579478\surefirebooter2612208153124242745.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="abhij"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abhij\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhij\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\SnehProjects\Miro\Miro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="driverType" value="chrome"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.8.2\bin;C:\Users\abhij\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\abhij\AppData\Local\Programs\Python\Python39\;C:\Users\abhij\AppData\Local\Microsoft\WindowsApps;C:\Users\abhij\AppData\Roaming\npm;C:\Program Files\apache-maven-3.8.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): Name&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](1)" classname="cucumber.Options.RunCucumberTests" time="8.109">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): Name         # src/test/resources/features/E2ETestsNegative.feature:21
+2021-08-30 15:31:26,016 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:28,566 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                    # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:28,744 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                   # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:28,849 [INFO  ] Log - >> Entered Name:
+
+    Entered Name:
+
+  When user enters "" in name textbox                                                          # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:29,388 [INFO  ] Log - >> Entered workemail:Raleigh.Bogan@fakeEmail.com
+
+    Entered workemail:Raleigh.Bogan@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                             # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:29,544 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                                               # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:29,589 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                  # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:29,728 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                       # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:29,844 [INFO  ] Log - >> Name_error: Please enter your name.
+
+    Name_error: Please enter your name.
+
+  Then user gets error message for missing details "","WorkEmail","Password","PolicyAgreement" # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:29,894 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                               # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:29,920 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                             # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:30,347 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 15204
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): WorkEmail&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](2)" classname="cucumber.Options.RunCucumberTests" time="5.335">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): WorkEmail # src/test/resources/features/E2ETestsNegative.feature:22
+2021-08-30 15:31:31,817 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:34,445 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                 # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:34,604 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:34,731 [INFO  ] Log - >> Entered Name:Edmond
+
+    Entered Name:Edmond
+
+  When user enters "Name" in name textbox                                                   # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:34,841 [INFO  ] Log - >> Entered workemail:
+
+    Entered workemail:
+
+  And user enters "" in workemail textbox                                                   # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:35,000 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                                            # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:35,045 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                               # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:35,188 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                    # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:35,292 [INFO  ] Log - >> workEmail_error: Please enter your email address.
+
+    workEmail_error: Please enter your email address.
+
+  Then user gets error message for missing details "Name","","Password","PolicyAgreement"   # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:35,336 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                            # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:35,358 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                          # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:35,690 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23751
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): Password&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](3)" classname="cucumber.Options.RunCucumberTests" time="4.928">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): Password # src/test/resources/features/E2ETestsNegative.feature:23
+2021-08-30 15:31:36,930 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:39,389 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:39,557 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                               # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:39,677 [INFO  ] Log - >> Entered Name:Rolf
+
+    Entered Name:Rolf
+
+  When user enters "Name" in name textbox                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:39,841 [INFO  ] Log - >> Entered workemail:Mason.Ruecker@fakeEmail.com
+
+    Entered workemail:Mason.Ruecker@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                         # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:39,944 [INFO  ] Log - >> Entered password:
+
+    Entered password:
+
+  And user enters "" in password textbox                                                   # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:39,982 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                              # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:40,116 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                   # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:40,223 [INFO  ] Log - >> password_error: Please enter your password.
+
+    password_error: Please enter your password.
+
+  Then user gets error message for missing details "Name","WorkEmail","","PolicyAgreement" # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:40,275 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                           # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:40,296 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                         # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:40,634 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 1567
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): PolicyAgreement&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](4)" classname="cucumber.Options.RunCucumberTests" time="5.072">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): PolicyAgreement # src/test/resources/features/E2ETestsNegative.feature:24
+2021-08-30 15:31:41,876 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:44,447 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                       # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:44,620 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                      # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:44,742 [INFO  ] Log - >> Entered Name:Lorina
+
+    Entered Name:Lorina
+
+  When user enters "Name" in name textbox                                                         # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:44,905 [INFO  ] Log - >> Entered workemail:Kate.Shanahan@fakeEmail.com
+
+    Entered workemail:Kate.Shanahan@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                                # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:45,059 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:45,061 [INFO  ] Log - >> Checked checkbox is:
+
+    Checked checkbox is:
+
+  And user selects "" checkbox                                                                    # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:45,203 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                          # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:45,308 [INFO  ] Log - >> policyAgreement_error: Please agree with the Terms to sign up.
+
+    policyAgreement_error: Please agree with the Terms to sign up.
+
+  Then user gets error message for missing details "Name","WorkEmail","Password",""               # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:45,349 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                  # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:45,372 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:45,709 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 18800
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password,PolicyAgreement&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](5)" classname="cucumber.Options.RunCucumberTests" time="5.278">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password,PolicyAgreement # src/test/resources/features/E2ETestsNegative.feature:25
+2021-08-30 15:31:46,961 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:49,554 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                                               # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:49,716 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                                              # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:49,819 [INFO  ] Log - >> Entered Name:
+
+    Entered Name:
+
+  When user enters "" in name textbox                                                                                     # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:49,920 [INFO  ] Log - >> Entered workemail:
+
+    Entered workemail:
+
+  And user enters "" in workemail textbox                                                                                 # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:50,023 [INFO  ] Log - >> Entered password:
+
+    Entered password:
+
+  And user enters "" in password textbox                                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:50,024 [INFO  ] Log - >> Checked checkbox is:
+
+    Checked checkbox is:
+
+  And user selects "" checkbox                                                                                            # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:50,160 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:50,269 [INFO  ] Log - >> Name_error: Please enter your name.
+
+    Name_error: Please enter your name.
+
+2021-08-30 15:31:50,366 [INFO  ] Log - >> workEmail_error: Please enter your email address.
+
+    workEmail_error: Please enter your email address.
+
+2021-08-30 15:31:50,462 [INFO  ] Log - >> password_error: Please enter your password.
+
+    password_error: Please enter your password.
+
+2021-08-30 15:31:50,552 [INFO  ] Log - >> policyAgreement_error: Please agree with the Terms to sign up.
+
+    policyAgreement_error: Please agree with the Terms to sign up.
+
+  Then user gets error message for missing details "","","",""                                                            # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:50,591 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                                          # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:50,613 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                                        # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:50,990 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 3640
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): Password,PolicyAgreement&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](6)" classname="cucumber.Options.RunCucumberTests" time="5.223">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): Password,PolicyAgreement # src/test/resources/features/E2ETestsNegative.feature:26
+2021-08-30 15:31:52,414 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:31:54,952 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                                # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:31:55,121 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                               # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:31:55,240 [INFO  ] Log - >> Entered Name:Soo
+
+    Entered Name:Soo
+
+  When user enters "Name" in name textbox                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:31:55,408 [INFO  ] Log - >> Entered workemail:Hassan.Gerlach@fakeEmail.com
+
+    Entered workemail:Hassan.Gerlach@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                                         # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:31:55,507 [INFO  ] Log - >> Entered password:
+
+    Entered password:
+
+  And user enters "" in password textbox                                                                   # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:31:55,508 [INFO  ] Log - >> Checked checkbox is:
+
+    Checked checkbox is:
+
+  And user selects "" checkbox                                                                             # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:31:55,638 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                                   # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:31:55,739 [INFO  ] Log - >> password_error: Please enter your password.
+
+    password_error: Please enter your password.
+
+2021-08-30 15:31:55,831 [INFO  ] Log - >> policyAgreement_error: Please agree with the Terms to sign up.
+
+    policyAgreement_error: Please agree with the Terms to sign up.
+
+  Then user gets error message for missing details "Name","WorkEmail","",""                                # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:31:55,870 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                           # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:31:55,889 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                         # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:31:56,183 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12619
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](7)" classname="cucumber.Options.RunCucumberTests" time="5.166">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @MissingMandotoryDetails
+Scenario Outline: User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password # src/test/resources/features/E2ETestsNegative.feature:27
+2021-08-30 15:31:57,404 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:00,012 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                               # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:00,188 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                              # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:00,290 [INFO  ] Log - >> Entered Name:
+
+    Entered Name:
+
+  When user enters "" in name textbox                                                                     # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:00,398 [INFO  ] Log - >> Entered workemail:
+
+    Entered workemail:
+
+  And user enters "" in workemail textbox                                                                 # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:00,495 [INFO  ] Log - >> Entered password:
+
+    Entered password:
+
+  And user enters "" in password textbox                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:00,532 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                             # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:00,672 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:00,771 [INFO  ] Log - >> Name_error: Please enter your name.
+
+    Name_error: Please enter your name.
+
+2021-08-30 15:32:00,864 [INFO  ] Log - >> workEmail_error: Please enter your email address.
+
+    workEmail_error: Please enter your email address.
+
+2021-08-30 15:32:00,958 [INFO  ] Log - >> password_error: Please enter your password.
+
+    password_error: Please enter your password.
+
+  Then user gets error message for missing details "","","","PolicyAgreement"                             # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2021-08-30 15:32:00,996 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                          # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:01,016 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                        # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:01,380 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 6656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:31:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with incorrect WorkEmail:test.WorkEmail is missing @ &amp; Domain&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](8)" classname="cucumber.Options.RunCucumberTests" time="5.215">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @IncorrectWorkEmail
+Scenario Outline: User is not registered with incorrect WorkEmail:test.WorkEmail is missing @ & Domain # src/test/resources/features/E2ETestsNegative.feature:42
+2021-08-30 15:32:02,605 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:05,265 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                            # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:05,427 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                           # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:05,561 [INFO  ] Log - >> Entered Name:Phuong
+
+    Entered Name:Phuong
+
+  When user enters "Name" in name textbox                                                              # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:05,683 [INFO  ] Log - >> Entered workemail:test
+
+    Entered workemail:test
+
+  And user enters "test" in workemail textbox                                                          # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:05,857 [INFO  ] Log - >> Entered password:<Password>
+
+    Entered password:<Password>
+
+  And user enters "<Password>" in password textbox                                                     # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:05,896 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                          # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:06,044 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                               # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:06,148 [INFO  ] Log - >> Error message when workemail is incorrect: The email you entered is incorrect.
+
+    Error message when workemail is incorrect: The email you entered is incorrect.
+
+  Then user gets error message for incorrect details "WorkEmail" "test"                                # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+2021-08-30 15:32:06,188 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                       # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:06,209 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                     # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:06,614 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 30680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with incorrect WorkEmail:test@.WorkEmail is missing Domain&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](9)" classname="cucumber.Options.RunCucumberTests" time="5.164">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @IncorrectWorkEmail
+Scenario Outline: User is not registered with incorrect WorkEmail:test@.WorkEmail is missing Domain # src/test/resources/features/E2ETestsNegative.feature:43
+2021-08-30 15:32:07,842 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:10,512 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                         # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:10,682 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                        # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:10,806 [INFO  ] Log - >> Entered Name:Keiko
+
+    Entered Name:Keiko
+
+  When user enters "Name" in name textbox                                                           # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:10,923 [INFO  ] Log - >> Entered workemail:test@
+
+    Entered workemail:test@
+
+  And user enters "test@" in workemail textbox                                                      # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:11,088 [INFO  ] Log - >> Entered password:<Password>
+
+    Entered password:<Password>
+
+  And user enters "<Password>" in password textbox                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:11,121 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                       # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:11,259 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                            # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:11,357 [INFO  ] Log - >> Error message when workemail is incorrect: The email you entered is incorrect.
+
+    Error message when workemail is incorrect: The email you entered is incorrect.
+
+  Then user gets error message for incorrect details "WorkEmail" "test@"                            # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+2021-08-30 15:32:11,398 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                    # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:11,418 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                  # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:11,755 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 23180
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with incorrect WorkEmail:test@miro.WorkEmail is missing .com&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](10)" classname="cucumber.Options.RunCucumberTests" time="6.198">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @IncorrectWorkEmail
+Scenario Outline: User is not registered with incorrect WorkEmail:test@miro.WorkEmail is missing .com # src/test/resources/features/E2ETestsNegative.feature:44
+2021-08-30 15:32:12,975 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:15,635 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                           # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:15,808 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                          # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:15,937 [INFO  ] Log - >> Entered Name:Vikki
+
+    Entered Name:Vikki
+
+  When user enters "Name" in name textbox                                                             # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:16,063 [INFO  ] Log - >> Entered workemail:test@miro
+
+    Entered workemail:test@miro
+
+  And user enters "test@miro" in workemail textbox                                                    # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:16,220 [INFO  ] Log - >> Entered password:<Password>
+
+    Entered password:<Password>
+
+  And user enters "<Password>" in password textbox                                                    # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:16,255 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                         # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:17,464 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                              # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:17,556 [INFO  ] Log - >> Error message when workemail is incorrect: This doesn’t look like an email address. Please check it for typos and try again.
+
+    Error message when workemail is incorrect: This doesnâ€™t look like an email address. Please check it for typos and try again.
+
+  Then user gets error message for incorrect details "WorkEmail" "test@miro"                          # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+2021-08-30 15:32:17,596 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                      # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:17,614 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                    # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:17,919 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 46168
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with incorrect WorkEmail:test.com.WorkEmail is missing @&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](11)" classname="cucumber.Options.RunCucumberTests" time="4.951">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @IncorrectWorkEmail
+Scenario Outline: User is not registered with incorrect WorkEmail:test.com.WorkEmail is missing @ # src/test/resources/features/E2ETestsNegative.feature:45
+2021-08-30 15:32:19,323 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:21,630 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                       # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:21,792 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                                      # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:21,917 [INFO  ] Log - >> Entered Name:Stuart
+
+    Entered Name:Stuart
+
+  When user enters "Name" in name textbox                                                         # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:22,039 [INFO  ] Log - >> Entered workemail:test.com
+
+    Entered workemail:test.com
+
+  And user enters "test.com" in workemail textbox                                                 # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:22,207 [INFO  ] Log - >> Entered password:<Password>
+
+    Entered password:<Password>
+
+  And user enters "<Password>" in password textbox                                                # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:22,244 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                     # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:22,380 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                          # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:22,475 [INFO  ] Log - >> Error message when workemail is incorrect: The email you entered is incorrect.
+
+    Error message when workemail is incorrect: The email you entered is incorrect.
+
+  Then user gets error message for incorrect details "WorkEmail" "test.com"                       # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+2021-08-30 15:32:22,516 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                                  # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:22,536 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                                # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:22,882 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 26561
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with Password:test less than 8 characters&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](12)" classname="cucumber.Options.RunCucumberTests" time="5.991">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @InvalidPassword
+Scenario Outline: User is not registered with Password:test less than 8 characters # src/test/resources/features/E2ETestsNegative.feature:60
+2021-08-30 15:32:24,125 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:27,056 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                        # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:27,229 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                       # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:27,350 [INFO  ] Log - >> Entered Name:Hubert
+
+    Entered Name:Hubert
+
+  When user enters "Name" in name textbox                                          # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:27,516 [INFO  ] Log - >> Entered workemail:Junie.Zemlak@fakeEmail.com
+
+    Entered workemail:Junie.Zemlak@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                 # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:27,628 [INFO  ] Log - >> Entered password:test
+
+    Entered password:test
+
+  And user enters "test" in password textbox                                       # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:27,664 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                      # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:27,799 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                           # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:28,508 [INFO  ] Log - >> Error message when Password is incorrect: Please use 8+ characters for secure password
+
+    Error message when Password is incorrect: Please use 8+ characters for secure password
+
+  Then user gets error message for incorrect details "password" "test"             # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+2021-08-30 15:32:28,547 [INFO  ] Log - >> User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+    User is not navigated to signupconfirmation page:https://miro.com/signup/
+
+  And user is not navigated to confirmation page                                   # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+2021-08-30 15:32:28,567 [INFO  ] Log - >> User is still on signup page: https://miro.com/signup/
+
+    User is still on signup page: https://miro.com/signup/
+
+  And user is still on signup page                                                 # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:28,898 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 29394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with Password:test@128 equal to 8 characters&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](13)" classname="cucumber.Options.RunCucumberTests" time="14.658">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.className: signup__input-hint-text&apos; (tried for 3 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: signup__input-hint-text' (tried for 3 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".signup__input\-hint\-text"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABHISNEH', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\abhij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a64c584cabe3ef075fdea111c03c046
+*** Element info: {Using=class name, value=signup__input-hint-text}
+]]></failure>
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @InvalidPassword
+Scenario Outline: User is not registered with Password:test@128 equal to 8 characters # src/test/resources/features/E2ETestsNegative.feature:61
+2021-08-30 15:32:30,148 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:32,272 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                           # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:32,437 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                                          # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:32,553 [INFO  ] Log - >> Entered Name:Jane
+
+    Entered Name:Jane
+
+  When user enters "Name" in name textbox                                             # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:32,730 [INFO  ] Log - >> Entered workemail:Antoinette.Haag@fakeEmail.com
+
+    Entered workemail:Antoinette.Haag@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                    # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:32,869 [INFO  ] Log - >> Entered password:test@128
+
+    Entered password:test@128
+
+  And user enters "test@128" in password textbox                                      # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:32,902 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                         # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:34,905 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                              # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+  Then user gets error message for incorrect details "password" "test@128"            # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: signup__input-hint-text' (tried for 3 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(E2ETestsNegative_Steps.java:114)
+	at âœ½.user gets error message for incorrect details "password" "test@128"(file:///C:/SnehProjects/Miro/Miro/src/test/resources/features/E2ETestsNegative.feature:54)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".signup__input\-hint\-text"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ABHISNEH', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\abhij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a64c584cabe3ef075fdea111c03c046
+*** Element info: {Using=class name, value=signup__input-hint-text}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(E2ETestsNegative_Steps.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:134)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:131)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+  And user is not navigated to confirmation page                                      # stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()
+  And user is still on signup page                                                    # stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()
+2021-08-30 15:32:43,553 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 29340
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User is not registered with already registered email address&quot;, &quot;Optional[Negative E2E tests for Signup Page]&quot;](14)" classname="cucumber.Options.RunCucumberTests" time="12.035">
+    <system-out><![CDATA[
+@E2ETest @InvalidDetails @RegisterWithExistingWorkEmail
+Scenario: User is not registered with already registered email address # src/test/resources/features/E2ETestsNegative.feature:64
+2021-08-30 15:32:44,947 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:47,495 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                            # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:47,653 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  And miro sign up page is loaded in browser                           # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:47,770 [INFO  ] Log - >> Entered Name:Marion
+
+    Entered Name:Marion
+
+2021-08-30 15:32:47,938 [INFO  ] Log - >> Entered workemail:Brenda.Harvey@fakeEmail.com
+
+    Entered workemail:Brenda.Harvey@fakeEmail.com
+
+2021-08-30 15:32:48,083 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+2021-08-30 15:32:48,117 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+2021-08-30 15:32:52,020 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+2021-08-30 15:32:52,020 [INFO  ] Log - >> Sign-up a client with emailaddress:Brenda.Harvey@fakeEmail.com
+
+    Sign-up a client with emailaddress:Brenda.Harvey@fakeEmail.com
+
+  Given user already sign up successfully with workemail "WorkEmail"   # stepDefinitions.E2ETestsNegative_Steps.user_already_sign_up_successfully_with_workemail(java.lang.String)
+2021-08-30 15:32:52,878 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  And user navigates to miro sign up page                              # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:52,989 [INFO  ] Log - >> Entered Name:Delila
+
+    Entered Name:Delila
+
+  When user enters "Name" in name textbox                              # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+  And user enters existing "WorkEmail" in workemail textbox            # stepDefinitions.E2ETestsNegative_Steps.user_enters_in_workemail_textbox_negative(java.lang.String)
+2021-08-30 15:32:53,278 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                       # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:53,307 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                          # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:54,331 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                               # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:32:54,403 [INFO  ] Log - >> Error message when user uses already registered email address for signupSorry, this email is already registered
+
+    Error message when user uses already registered email address for signupSorry, this email is already registered
+
+  Then user gets error message for existing email                      # stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message()
+2021-08-30 15:32:55,592 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33077
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User successfully navigates to the EmailConfirmation Page on entering all valid Sign-up details&quot;, &quot;Optional[E2E tests for Signup Page]&quot;](15)" classname="cucumber.Options.RunCucumberTests" time="6.626">
+    <system-out><![CDATA[
+@E2ETest @validDetails
+Scenario: User successfully navigates to the EmailConfirmation Page on entering all valid Sign-up details # src/test/resources/features/E2ETestsPositive.feature:9
+2021-08-30 15:32:56,827 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:32:58,992 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                               # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:32:59,156 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  Then miro sign up page is loaded in browser                                                             # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:32:59,278 [INFO  ] Log - >> Entered Name:Alethea
+
+    Entered Name:Alethea
+
+  When user enters "Name" in name textbox                                                                 # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:32:59,444 [INFO  ] Log - >> Entered workemail:Quinn.Watsica@fakeEmail.com
+
+    Entered workemail:Quinn.Watsica@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                                        # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:32:59,596 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                                                          # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:32:59,631 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                             # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:32:59,666 [INFO  ] Log - >> Checked checkbox is:News&UpdateAgreement
+
+    Checked checkbox is:News&UpdateAgreement
+
+  And user selects "News&UpdateAgreement" checkbox                                                        # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:33:01,516 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:33:01,536 [INFO  ] Log - >> Navigates to confirmation page: https://miro.com/email-confirm/
+
+    Navigates to confirmation page: https://miro.com/email-confirm/
+
+  Then user is navigated to Email Confirmation page                                                       # stepDefinitions.E2ETestsPositive_Steps.user_is_navigated_to_email_confirmation_page()
+2021-08-30 15:33:01,612 [INFO  ] Log - >> Title of the confirmation page: Check your email
+
+    Title of the confirmation page: Check your email
+
+  And Email confirmation message contains "Check your email"                                              # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains(java.lang.String)
+2021-08-30 15:33:01,702 [INFO  ] Log - >> Email id displayed on Confirmation page: We've sent you a six-digit confirmation code to Quinn.Watsica@fakeEmail.com. Please enter it below to confirm your email address.
+
+    Email id displayed on Confirmation page: We've sent you a six-digit confirmation code to Quinn.Watsica@fakeEmail.com. Please enter it below to confirm your email address.
+
+  And Email confirmation message contains my "WorkEmail"                                                  # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_my(java.lang.String)
+2021-08-30 15:33:01,819 [INFO  ] Log - >> A textbox is displayed to enter 6 digit code: true
+
+    A textbox is displayed to enter 6 digit code: true
+
+  And Email confirmation message contains textbox to enter 6 digit code                                   # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_textbox_to_enter_digit_code(java.lang.Integer)
+2021-08-30 15:33:02,197 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 46831
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User successfully navigates to the EmailConfirmation Page on entering all mandatory Sign-up details (News&amp;UpdateAgreement-not selected)&quot;, &quot;Optional[E2E tests for Signup Page]&quot;](16)" classname="cucumber.Options.RunCucumberTests" time="7.066">
+    <system-out><![CDATA[
+@E2ETest @validDetails
+Scenario: User successfully navigates to the EmailConfirmation Page on entering all mandatory Sign-up details (News&UpdateAgreement-not selected) # src/test/resources/features/E2ETestsPositive.feature:21
+2021-08-30 15:33:03,406 [INFO  ] Log - >> Opens the selected browser from POM command line properties
+
+    Opens the selected browser from POM command line properties
+
+2021-08-30 15:33:05,991 [INFO  ] Log - >> User is navigated to MiroSignup page: https://miro.com/signup/
+
+    User is navigated to MiroSignup page: https://miro.com/signup/
+
+  Given user navigates to miro sign up page                                                                                                       # stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()
+2021-08-30 15:33:06,156 [INFO  ] Log - >> URL of loaded page: https://miro.com/signup/
+  Then miro sign up page is loaded in browser                                                                                                     # stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()
+2021-08-30 15:33:06,274 [INFO  ] Log - >> Entered Name:Arla
+
+    Entered Name:Arla
+
+  When user enters "Name" in name textbox                                                                                                         # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)
+2021-08-30 15:33:06,440 [INFO  ] Log - >> Entered workemail:Troy.Spinka@fakeEmail.com
+
+    Entered workemail:Troy.Spinka@fakeEmail.com
+
+  And user enters "WorkEmail" in workemail textbox                                                                                                # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)
+2021-08-30 15:33:06,592 [INFO  ] Log - >> Entered password:Miro@2021
+
+    Entered password:Miro@2021
+
+  And user enters "Password" in password textbox                                                                                                  # stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)
+2021-08-30 15:33:06,626 [INFO  ] Log - >> Checked checkbox is:PolicyAgreement
+
+    Checked checkbox is:PolicyAgreement
+
+  And user selects "PolicyAgreement" checkbox                                                                                                     # stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)
+2021-08-30 15:33:08,562 [INFO  ] Log - >> Get Started now button is clicked
+
+    Get Started now button is clicked
+
+  And user clicks "GetStartedNow" button                                                                                                          # stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)
+2021-08-30 15:33:08,579 [INFO  ] Log - >> Navigates to confirmation page: https://miro.com/email-confirm/
+
+    Navigates to confirmation page: https://miro.com/email-confirm/
+
+  Then user is navigated to Email Confirmation page                                                                                               # stepDefinitions.E2ETestsPositive_Steps.user_is_navigated_to_email_confirmation_page()
+2021-08-30 15:33:08,656 [INFO  ] Log - >> Title of the confirmation page: Check your email
+
+    Title of the confirmation page: Check your email
+
+  And Email confirmation message contains "Check your email"                                                                                      # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains(java.lang.String)
+2021-08-30 15:33:08,752 [INFO  ] Log - >> Email id displayed on Confirmation page: We've sent you a six-digit confirmation code to Troy.Spinka@fakeEmail.com. Please enter it below to confirm your email address.
+
+    Email id displayed on Confirmation page: We've sent you a six-digit confirmation code to Troy.Spinka@fakeEmail.com. Please enter it below to confirm your email address.
+
+  And Email confirmation message contains my "WorkEmail"                                                                                          # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_my(java.lang.String)
+2021-08-30 15:33:08,874 [INFO  ] Log - >> A textbox is displayed to enter 6 digit code: true
+
+    A textbox is displayed to enter 6 digit code: true
+
+  And Email confirmation message contains textbox to enter 6 digit code                                                                           # stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_textbox_to_enter_digit_code(java.lang.Integer)
+2021-08-30 15:33:09,301 [INFO  ] Log - >> Quits the browser
+
+    Quits the browser
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2021 3:33:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

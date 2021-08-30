@@ -1,0 +1,4656 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2486916200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177013200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:22.849Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 3173901900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 29006100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1994300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User is not registered on missing mandatory sign up detail/(s): Name",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1005600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 993500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 415583600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:"
+            ],
+            "result": {
+              "duration": 104992700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Raleigh.Bogan@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 537996100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 157997100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 39993000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 139007300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Name_error: Please enter your name."
+            ],
+            "result": {
+              "duration": 144997900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"\",\"WorkEmail\",\"Password\",\"PolicyAgreement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 26995500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 27001100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2623376300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:30.410Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1405612300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2004100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User is not registered on missing mandatory sign up detail/(s): WorkEmail",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 322991700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Edmond"
+            ],
+            "result": {
+              "duration": 127003800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:"
+            ],
+            "result": {
+              "duration": 109995900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 159999100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 43000700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 145010700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "workEmail_error: Please enter your email address."
+            ],
+            "result": {
+              "duration": 127988600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"Name\",\"\",\"Password\",\"PolicyAgreement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 24007100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 21534600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2454134200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166995800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:35.720Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1210094300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1995300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1006400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User is not registered on missing mandatory sign up detail/(s): Password",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 328993900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Rolf"
+            ],
+            "result": {
+              "duration": 120004300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Mason.Ruecker@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 162998200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:"
+            ],
+            "result": {
+              "duration": 103006700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 37995600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 135002600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "password_error: Please enter your password."
+            ],
+            "result": {
+              "duration": 137001600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"Name\",\"WorkEmail\",\"\",\"PolicyAgreement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 20998800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 23003500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2567007800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171989500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:40.653Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1222051600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User is not registered on missing mandatory sign up detail/(s): PolicyAgreement",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 330008100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Lorina"
+            ],
+            "result": {
+              "duration": 122996200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Kate.Shanahan@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 163006300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 153999100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:"
+            ],
+            "result": {
+              "duration": 995300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 143007800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "policyAgreement_error: Please agree with the Terms to sign up."
+            ],
+            "result": {
+              "duration": 130001400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"Name\",\"WorkEmail\",\"Password\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 21988900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 22004200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2589997300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161004300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:45.725Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1235985200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2004500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password,PolicyAgreement",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 371005100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:"
+            ],
+            "result": {
+              "duration": 102996000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:"
+            ],
+            "result": {
+              "duration": 101005000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:"
+            ],
+            "result": {
+              "duration": 101994500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:"
+            ],
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 137009200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Name_error: Please enter your name.",
+              "workEmail_error: Please enter your email address.",
+              "password_error: Please enter your password.",
+              "policyAgreement_error: Please agree with the Terms to sign up."
+            ],
+            "result": {
+              "duration": 414989600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"\",\"\",\"\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 23002800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 18997000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2533998700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169011600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:51.002Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1411994600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User is not registered on missing mandatory sign up detail/(s): Password,PolicyAgreement",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 287006000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Soo"
+            ],
+            "result": {
+              "duration": 118993400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Hassan.Gerlach@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 167004500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:"
+            ],
+            "result": {
+              "duration": 99003300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:"
+            ],
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 130001200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "password_error: Please enter your password.",
+              "policyAgreement_error: Please agree with the Terms to sign up."
+            ],
+            "result": {
+              "duration": 216993800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"Name\",\"WorkEmail\",\"\",\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19992000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19002100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2604990100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175998900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:31:56.195Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1209015600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1988100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1006100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User is not registered on missing mandatory sign up detail/(s): Name,WorkEmail,Password",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-on-missing-mandatory-sign-up-detail/(s):-\u003cmissingdetail/(s)\u003e;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 358007300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:"
+            ],
+            "result": {
+              "duration": 101006400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:"
+            ],
+            "result": {
+              "duration": 108003100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:"
+            ],
+            "result": {
+              "duration": 95996400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 38000400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 140011700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Name_error: Please enter your name.",
+              "workEmail_error: Please enter your email address.",
+              "password_error: Please enter your password."
+            ],
+            "result": {
+              "duration": 309987900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user gets error message for missing details \"\",\"\",\"\",\"PolicyAgreement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_missing_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19000500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19006500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@MissingMandotoryDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2656834400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161987900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:01.397Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1206992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1004400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User is not registered with incorrect WorkEmail:test.WorkEmail is missing @ \u0026 Domain",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-incorrect-workemail:\u003cworkemail\u003e.workemail-is-\u003cemailtype\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1004000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 397989500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Phuong"
+            ],
+            "result": {
+              "duration": 133004600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:test"
+            ],
+            "result": {
+              "duration": 121986300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters \"test\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:\u003cPassword\u003e"
+            ],
+            "result": {
+              "duration": 174010800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters \"\u003cPassword\u003e\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 38000200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 147997400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when workemail is incorrect: The email you entered is incorrect."
+            ],
+            "result": {
+              "duration": 129998600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets error message for incorrect details \"WorkEmail\" \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 20001100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 20005800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@IncorrectWorkEmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2666554700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169001000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:06.625Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1217541300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "User is not registered with incorrect WorkEmail:test@.WorkEmail is missing Domain",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-incorrect-workemail:\u003cworkemail\u003e.workemail-is-\u003cemailtype\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 331003700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Keiko"
+            ],
+            "result": {
+              "duration": 123994900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:test@"
+            ],
+            "result": {
+              "duration": 116005900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters \"test@\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:\u003cPassword\u003e"
+            ],
+            "result": {
+              "duration": 164994600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters \"\u003cPassword\u003e\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 32000700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 139011300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when workemail is incorrect: The email you entered is incorrect."
+            ],
+            "result": {
+              "duration": 122987300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets error message for incorrect details \"WorkEmail\" \"test@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test@\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 21009300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 18996400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@IncorrectWorkEmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2656056300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173000400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:11.766Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1209005300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1995800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 995500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "User is not registered with incorrect WorkEmail:test@miro.WorkEmail is missing .com",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-incorrect-workemail:\u003cworkemail\u003e.workemail-is-\u003cemailtype\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 300008700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Vikki"
+            ],
+            "result": {
+              "duration": 128991400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:test@miro"
+            ],
+            "result": {
+              "duration": 125996100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters \"test@miro\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@miro\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:\u003cPassword\u003e"
+            ],
+            "result": {
+              "duration": 157007600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters \"\u003cPassword\u003e\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 33994000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 1209028800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when workemail is incorrect: This doesn’t look like an email address. Please check it for typos and try again."
+            ],
+            "result": {
+              "duration": 117967800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets error message for incorrect details \"WorkEmail\" \"test@miro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test@miro\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 18999700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 17998400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@IncorrectWorkEmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2304532400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162007400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:17.937Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1385990300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "User is not registered with incorrect WorkEmail:test.com.WorkEmail is missing @",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-incorrect-workemail:\u003cworkemail\u003e.workemail-is-\u003cemailtype\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 340009000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Stuart"
+            ],
+            "result": {
+              "duration": 124985900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:test.com"
+            ],
+            "result": {
+              "duration": 121008700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters \"test.com\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:\u003cPassword\u003e"
+            ],
+            "result": {
+              "duration": 167999100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters \"\u003cPassword\u003e\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 37000500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 135998800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when workemail is incorrect: The email you entered is incorrect."
+            ],
+            "result": {
+              "duration": 117999700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user gets error message for incorrect details \"WorkEmail\" \"test.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test.com\"",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 24001600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 18992900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@IncorrectWorkEmail"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2927714700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172007300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:22.893Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1232049100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2002500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "User is not registered with Password:test less than 8 characters",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-password:\u003cpassword\u003e-\u003cpasswordtype\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 998600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 324066400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Hubert"
+            ],
+            "result": {
+              "duration": 119998900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Junie.Zemlak@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 165000100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:test"
+            ],
+            "result": {
+              "duration": 113084500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enters \"test\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 35007700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 135002300,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when Password is incorrect: Please use 8+ characters for secure password"
+            ],
+            "result": {
+              "duration": 734172200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user gets error message for incorrect details \"password\" \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "User is not navigated to signupconfirmation page:https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19545300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "User is still on signup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 19995700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@InvalidPassword"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2122004300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164004800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:28.908Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1239120500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 995200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 993000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "User is not registered with Password:test@128 equal to 8 characters",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-password:\u003cpassword\u003e-\u003cpasswordtype\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 591085700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Jane"
+            ],
+            "result": {
+              "duration": 115002400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Antoinette.Haag@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 176998000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:test@128"
+            ],
+            "result": {
+              "duration": 138998400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enters \"test@128\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@128\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 32995600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 2002081800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.className: signup__input-hint-text\u0027 (tried for 3 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(E2ETestsNegative_Steps.java:114)\r\n\tat ✽.user gets error message for incorrect details \"password\" \"test@128\"(file:///C:/SnehProjects/Miro/Miro/src/test/resources/features/E2ETestsNegative.feature:54)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".signup__input\\-hint\\-text\"}\n  (Session info: chrome\u003d92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ABHISNEH\u0027, ip: \u0027192.168.1.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\abhij\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2a64c584cabe3ef075fdea111c03c046\n*** Element info: {Using\u003dclass name, value\u003dsignup__input-hint-text}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy33.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(E2ETestsNegative_Steps.java:114)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:134)\r\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\r\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:131)\r\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\r\n\tat org.testng.TestRunner.run(TestRunner.java:585)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\r\n\tat org.testng.TestNG.run(TestNG.java:1037)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:136)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:145)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 8046082100,
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "user gets error message for incorrect details \"password\" \"test@128\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"test@128\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message_for_incorrect_details(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "user is not navigated to confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_not_navigated_to_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user is still on signup page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_is_still_on_signup_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@InvalidPassword"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2545609900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158003200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:43.574Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1371992800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1006700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "User is not registered with already registered email address",
+        "description": "",
+        "id": "negative-e2e-tests-for-signup-page;user-is-not-registered-with-already-registered-email-address",
+        "after": [
+          {
+            "result": {
+              "duration": 1009500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 1164994800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Marion",
+              "Entered workemail:Brenda.Harvey@fakeEmail.com",
+              "Entered password:Miro@2021",
+              "Checked checkbox is:PolicyAgreement",
+              "Get Started now button is clicked",
+              "Sign-up a client with emailaddress:Brenda.Harvey@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 4366655300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user already sign up successfully with workemail \"WorkEmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_already_sign_up_successfully_with_workemail(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 858660100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered Name:Delila"
+            ],
+            "result": {
+              "duration": 109998900,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153008300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user enters existing \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_enters_in_workemail_textbox_negative(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 134996500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 29003700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 1024100400,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Error message when user uses already registered email address for signupSorry, this email is already registered"
+            ],
+            "result": {
+              "duration": 94971800,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "user gets error message for existing email",
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.user_gets_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@InvalidDetails"
+          },
+          {
+            "name": "@RegisterWithExistingWorkEmail"
+          }
+        ]
+      }
+    ],
+    "name": "Negative E2E tests for Signup Page",
+    "description": "",
+    "id": "negative-e2e-tests-for-signup-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/E2ETestsNegative.feature",
+    "tags": [
+      {
+        "name": "@E2ETest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@InvalidDetails",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2163171900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163996000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:32:55.606Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1221000800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User successfully navigates to the EmailConfirmation Page on entering all valid Sign-up details",
+        "description": "",
+        "id": "e2e-tests-for-signup-page;user-successfully-navigates-to-the-emailconfirmation-page-on-entering-all-valid-sign-up-details",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 339998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Alethea"
+            ],
+            "result": {
+              "duration": 122004400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Quinn.Watsica@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 165996000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 151063400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 35002200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:News\u0026UpdateAgreement"
+            ],
+            "result": {
+              "duration": 35005700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects \"News\u0026UpdateAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"News\u0026UpdateAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 1849609200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Navigates to confirmation page: https://miro.com/email-confirm/"
+            ],
+            "result": {
+              "duration": 25999300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is navigated to Email Confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_is_navigated_to_email_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Title of the confirmation page: Check your email"
+            ],
+            "result": {
+              "duration": 93002600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Email confirmation message contains \"Check your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check your email\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Email id displayed on Confirmation page: We\u0027ve sent you a six-digit confirmation code to Quinn.Watsica@fakeEmail.com. Please enter it below to confirm your email address."
+            ],
+            "result": {
+              "duration": 88995100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Email confirmation message contains my \"WorkEmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_my(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "A textbox is displayed to enter 6 digit code: true"
+            ],
+            "result": {
+              "duration": 130999200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Email confirmation message contains textbox to enter 6 digit code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_textbox_to_enter_digit_code(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@validDetails"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Miro SignUp page is open",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "output": [
+              "User is navigated to MiroSignup page: https://miro.com/signup/"
+            ],
+            "result": {
+              "duration": 2580007100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to miro sign up page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_navigates_to_miro_sign_up_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164997600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "miro sign up page is loaded in browser",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.miro_sign_up_page_is_loaded_in_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T13:33:02.209Z",
+        "before": [
+          {
+            "output": [
+              "Opens the selected browser from POM command line properties"
+            ],
+            "result": {
+              "duration": 1196067000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.initilaize_browser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1998400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2006200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User successfully navigates to the EmailConfirmation Page on entering all mandatory Sign-up details (News\u0026UpdateAgreement-not selected)",
+        "description": "",
+        "id": "e2e-tests-for-signup-page;user-successfully-navigates-to-the-emailconfirmation-page-on-entering-all-mandatory-sign-up-details-(news\u0026updateagreement-not-selected)",
+        "after": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsNegative_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 993100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.after(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "output": [
+              "Quits the browser"
+            ],
+            "result": {
+              "duration": 391009000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.quiteDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Entered Name:Arla"
+            ],
+            "result": {
+              "duration": 117999900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters \"Name\" in name textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_name_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Entered workemail:Troy.Spinka@fakeEmail.com"
+            ],
+            "result": {
+              "duration": 164997200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters \"WorkEmail\" in workemail textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_workemail_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Entered password:Miro@2021"
+            ],
+            "result": {
+              "duration": 151531600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user enters \"Password\" in password textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_enters_in_password_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Checked checkbox is:PolicyAgreement"
+            ],
+            "result": {
+              "duration": 35001800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user selects \"PolicyAgreement\" checkbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PolicyAgreement\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_selects_policy_agreement_checkbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Get Started now button is clicked"
+            ],
+            "result": {
+              "duration": 1936004100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks \"GetStartedNow\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetStartedNow\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_clicks_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Navigates to confirmation page: https://miro.com/email-confirm/"
+            ],
+            "result": {
+              "duration": 24994600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user is navigated to Email Confirmation page",
+            "match": {
+              "location": "stepDefinitions.E2ETestsPositive_Steps.user_is_navigated_to_email_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Title of the confirmation page: Check your email"
+            ],
+            "result": {
+              "duration": 97996500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Email confirmation message contains \"Check your email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Check your email\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "Email id displayed on Confirmation page: We\u0027ve sent you a six-digit confirmation code to Troy.Spinka@fakeEmail.com. Please enter it below to confirm your email address."
+            ],
+            "result": {
+              "duration": 92007100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Email confirmation message contains my \"WorkEmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WorkEmail\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_my(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "A textbox is displayed to enter 6 digit code: true"
+            ],
+            "result": {
+              "duration": 130998600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Email confirmation message contains textbox to enter 6 digit code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.E2ETestsPositive_Steps.email_confirmation_message_contains_textbox_to_enter_digit_code(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2ETest"
+          },
+          {
+            "name": "@validDetails"
+          }
+        ]
+      }
+    ],
+    "name": "E2E tests for Signup Page",
+    "description": "",
+    "id": "e2e-tests-for-signup-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/E2ETestsPositive.feature",
+    "tags": [
+      {
+        "name": "@E2ETest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@validDetails",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  }
+]

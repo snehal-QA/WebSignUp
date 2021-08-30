@@ -1,0 +1,9 @@
+pageObjects\SignUpPage.class
+utilities\Log.class
+stepDefinitions\E2ETestsNegative_Steps.class
+stepDefinitions\WebDriverManager.class
+stepDefinitions\Hooks.class
+cucumber\Options\RunCucumberTests.class
+utilities\ConfigFileReader.class
+stepDefinitions\E2ETestsPositive_Steps.class
+pageObjects\SignUpConfirmPage.class
