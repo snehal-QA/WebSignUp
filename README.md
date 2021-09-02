@@ -1,4 +1,4 @@
-# Miro_SignUP_E2ETests
+# Web_SignUP_E2ETests
 
 	This project implements web automation testing to test Miro's SignUP page(E2E) using the below libraries.
 
